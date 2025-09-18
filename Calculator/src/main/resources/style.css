@@ -1,0 +1,29 @@
+.button_num {
+    -fx-background-color: #515057;
+    -fx-text-fill: #ffeed3;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+    -fx-font-size: 20px;
+}
+
+.text-field {
+    -fx-background-color: #1F1D1D;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+    -fx-font-size: 50px;
+    -fx-effect: null;
+}
+
+.anchorpane {
+    -fx-background-color: #121111;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-font-size: 20px;
+}
+
+.label {
+    -fx-text-fill: white;
+}

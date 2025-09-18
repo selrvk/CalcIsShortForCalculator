@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="350.0" styleClass="anchorpane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Calculator">
+   <children>
+      <Label layoutX="35.0" layoutY="16.0" stylesheets="@style.css" text="btw chat Calc if short for Calculator" textFill="#ebd7ba">
+         <font>
+            <Font name="Candara Light" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textfield" alignment="CENTER_RIGHT" layoutX="2.0" layoutY="61.0" prefHeight="101.0" prefWidth="344.0" promptText="0" stylesheets="@style.css">
+         <font>
+            <Font name="Franklin Gothic Medium" size="45.0" />
+         </font>
+      </TextField>
+      <Button fx:id="button_0" layoutX="2.0" layoutY="430.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="172.0" styleClass="button_num" stylesheets="@style.css" text="0" />
+      <Button fx:id="button_period" layoutX="176.0" layoutY="430.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="85.0" styleClass="button_num" stylesheets="@style.css" text="." />
+      <Button fx:id="button_equals" layoutX="263.0" layoutY="365.0" mnemonicParsing="false" prefHeight="126.0" prefWidth="85.0" styleClass="button_num" stylesheets="@style.css" text="=" />
+      <Button fx:id="button_1" layoutX="2.0" layoutY="365.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="85.0" styleClass="button_num" stylesheets="@style.css" text="1" />
+      <Button fx:id="button_4" layoutX="2.0" layoutY="300.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="85.0" styleClass="button_num" stylesheets="@style.css" text="4" />
+      <Button fx:id="button_7" layoutX="2.0" layoutY="235.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="85.0" styleClass="button_num" stylesheets="@style.css" text="7" />
+      <Button fx:id="button_mc" layoutX="2.0" layoutY="170.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="85.0" styleClass="button_num" stylesheets="@style.css" text="MC" />
+      <Button fx:id="button_mplus" layoutX="89.0" layoutY="170.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="85.0" styleClass="button_num" stylesheets="@style.css" text="M+" />
+      <Button fx:id="button_divide" layoutX="176.0" layoutY="170.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="85.0" styleClass="button_num" stylesheets="@style.css" text="/" />
+      <Button fx:id="button_times" layoutX="263.0" layoutY="170.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="85.0" styleClass="button_num" stylesheets="@style.css" text="*" />
+      <Button fx:id="button_minus" layoutX="263.0" layoutY="235.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="85.0" styleClass="button_num" stylesheets="@style.css" text="-" />
+      <Button fx:id="button_plus" layoutX="263.0" layoutY="300.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="85.0" styleClass="button_num" stylesheets="@style.css" text="+" />
+      <Button fx:id="button_8" layoutX="89.0" layoutY="235.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="85.0" styleClass="button_num" stylesheets="@style.css" text="8" />
+      <Button fx:id="button_5" layoutX="89.0" layoutY="300.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="85.0" styleClass="button_num" stylesheets="@style.css" text="5" />
+      <Button fx:id="button_2" layoutX="89.0" layoutY="365.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="85.0" styleClass="button_num" stylesheets="@style.css" text="2" />
+      <Button fx:id="button_3" layoutX="176.0" layoutY="365.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="85.0" styleClass="button_num" stylesheets="@style.css" text="3" />
+      <Button fx:id="button_6" layoutX="176.0" layoutY="300.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="85.0" styleClass="button_num" stylesheets="@style.css" text="6" />
+      <Button fx:id="button_9" layoutX="176.0" layoutY="235.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="85.0" styleClass="button_num" stylesheets="@style.css" text="9" />
+   </children>
+</AnchorPane>
